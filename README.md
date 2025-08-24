@@ -14,10 +14,10 @@ Each folder is a **case study** with:
 
 Here are some highlights from performance tuning cases:
 
-### Case 01 – Optimizing Reporting View RPT.vOrderSum
+### Case 01 – Optimizing Query for Performance
 | Before | After |
 |:---|---:|
-| ![Before](./2023-05-03/images/RExecute-Query_OLD-1.jpg) | ![After](./2023-05-03/images/Execute-Query_New.jpg) |
+| ![Before](./2023-05-03/images/Execute-Query_OLD-1.jpg) | ![After](./2023-05-03/images/Execute-Query_New.jpg) |
 
 👉 [Read full case study](./2023-05-03/README.md)
 
