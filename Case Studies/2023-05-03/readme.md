@@ -14,9 +14,9 @@
   - Duration: 3.086s
   
 - Example (Before Plan):
-![Before Plan](./images/Execute Query_OLD-1.jpg)
-![Before Plan](./images/Execute Query_OLD-2.jpg)
-![Before Plan](./images/Execute Query_OLD-3.jpg)
+![Before Plan](./images/"Execute-Query_OLD-1.jpg")
+![Before Plan](./images/Execute-Query_OLD-2.jpg)
+![Before Plan](./images/Execute-Query_OLD-3.jpg)
 
 ---
 
@@ -28,7 +28,7 @@ I began to optimize and rewrite the query structure by removing all extra column
 ---
 
 ## 4) Results
-![Execution Time](./images/Execute Query_New.jpg)
+![Execution Time](./images/Execute-Query_New.jpg)
 
 ---
 
