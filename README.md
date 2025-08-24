@@ -15,9 +15,9 @@ Each folder is a **case study** with:
 Here are some highlights from performance tuning cases:
 
 ### Case 01 – Optimizing Reporting View RPT.vOrderSum
-| Before / After |
-|:------:|
-| ![After](./2025-07-16/images/RPT.vOrderSum.jpg) |
+| Before | After |
+|:---|---:|
+| ![Before](./2023-05-03/images/RExecute-Query_OLD-1.jpg) | ![After](./2023-05-03/images/Execute-Query_New.jpg) |
 
-👉 [Read full case study](./2025-07-16/README.md)
+👉 [Read full case study](./2023-05-03/README.md)
 
