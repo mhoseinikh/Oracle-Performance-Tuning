@@ -54,7 +54,7 @@ I began to optimize and rewrite the query structure by removing all extra column
 ## 8) Scripts Used
 | Original Script (Before Optimization)               | New Script (After Optimization)                     |
 |-----------------------------------------------------|----------------------------------------------------:|
-| [View full Before Script](./scripts/QUERY_OLD.sql)  | [View full After Script](./scripts/QUERY_NEW.sql)   |
+| [View full Before Script](./scripts/Query_Old.sql)  | [View full After Script](./scripts/Query_New.sql)   |
 
 ---
 
