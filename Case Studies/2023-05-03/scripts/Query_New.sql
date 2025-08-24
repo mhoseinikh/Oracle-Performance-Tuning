@@ -44,18 +44,11 @@ SELECT T.GOODSCODE,
         WHERE (STOCK.IDSTOCK = 188212)
           AND (189452 = STOCKPERIOD.IDSTOCKPERIOD)
           AND (1124 = GOODS.IDGOODS)
-          ---   and (GoodsGoodsgroup.Goodsgrouprel = 0 or 0 = 0  )
           AND (PL.IDPHYSICALLOCATION IN (SELECT IDPHYSICALLOCATION
               FROM PHYSICALLOCATION
               WHERE NVL(ISDELETE, 0) = 0
                 AND ISACTIVE = 1))
           AND (GOODS.ISACTIVE = 1)
-        --??? AND (STOCK.ORGPOSITIONOID = 0    OR 0 = 0)
-        --??? AND (inv.CERTAIN_INVENTORY = 0 OR 0 = 0)
-        /*		AND ((Docheader.DOCDATE  TO_Date('','ddmmyyyy HHMISS AM') and  Docheader.DOCDATE  TO_Date('','ddmmyyyy HHMISS AM'))
-         		OR  (Docheader.DOCDATE  TO_Date('','ddmmyyyy HHMISS AM') and TO_Date('','ddmmyyyy HHMISS AM') IS NULL  )  
-                OR  (TO_Date('','ddmmyyyy HHMISS AM') IS NULL and Docheader.DOCDATE  TO_Date('','ddmmyyyy HHMISS AM') ) 
-                OR  (TO_Date('','ddmmyyyy HHMISS AM') IS NULL and TO_Date('','ddmmyyyy HHMISS AM') IS NULL  ))*/
         GROUP BY GOODS.GOODSCODE,
                  GOODS.GOODSTITLE,
                  GOODSSTATE.PERSIANTITLE,
