@@ -19,5 +19,5 @@ Here are some highlights from performance tuning cases:
 |:---|---:|
 | ![Before](./Case-Studies/2023-05-03/images/Execute-Query_OLD-1.jpg) | ![After](./Case-Studies/2023-05-03/images/Execute-Query_New.jpg) |
 
-👉 [Read full case study](./2023-05-03/README.md)
+👉 [Read full case study](./Case-Studies/2023-05-03/README.md)
 
